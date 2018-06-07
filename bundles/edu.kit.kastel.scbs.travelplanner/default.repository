@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:edu.kit.kastel.scbs.pcmconfidentialityprofile="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
   <repository:Repository id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository" repositoryDescription="">
     <components__Repository xsi:type="repository:BasicComponent" id="_SaUYgMNzEeWPE-QAhbUzuQ" entityName="TravelAgency">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dgy9sMNzEeWPE-QAhbUzuQ" entityName="Provided_FlightOffers_TravelAgency" providedInterface__OperationProvidedRole="_OWfzMMNyEeWPE-QAhbUzuQ"/>
@@ -201,6 +201,31 @@
       <extension href="../../plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram#_g1JGUJnREeWvVMHOHv3ROA"/>
       <parametersAndDataPairs href="default.confidentiality#createRelease"/>
     </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_j3xt4MNzEeWPE-QAhbUzuQ">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
+      <storeContainer href="DataSpecification.xmi#_bqKoIF_1Eei9wf9nO5fSgg"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="__s82QMN5EeWPE-QAhbUzuQ">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
+      <storeContainer href="DataSpecification.xmi#_-t2yc2QpEeidwNnGTCHtfA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataSeffSpecification" appliedTo="_Jo_X8N5fEeeel_96Qa_d5A">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_jc7rMFqiEeiW1d-qz7Oqsw"/>
+      <dataSeffSpecification href="DataSpecification.xmi#_kQnGEmmkEeiTPOTCuOOwCA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_MINzcN5fEeeel_96Qa_d5A">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YpnIAFqhEeiGTpqaWj7bwA"/>
+      <dataProcessingContainer href="DataSpecification.xmi#_htY-kGmoEeiawpaiUWeE1w"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataSeffSpecification" appliedTo="_brO1YN5fEeeel_96Qa_d5A">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_jc7rMFqiEeiW1d-qz7Oqsw"/>
+      <dataSeffSpecification href="DataSpecification.xmi#_qkcXcmmrEeiYbIBkVMCw6A"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_eJsb4N5fEeeel_96Qa_d5A">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YpnIAFqhEeiGTpqaWj7bwA"/>
+      <dataProcessingContainer href="DataSpecification.xmi#_mUtnoGmrEeiYbIBkVMCw6A"/>
+    </stereotypeApplications>
     <importedProfiles nsURI="http://edu.kit.kastel.scbs/pcmconfidentialityprofile" location="platform:/plugin/edu.kit.kastel.scbs.pcmconfidentialityprofile/confidentiality.emfprofile_diagram"/>
+    <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
 </xmi:XMI>
